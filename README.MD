@@ -20,4 +20,4 @@ Admin Report
 
 ### Dependencies
 * Qbox Core -- used for logging, but can be easily changed in server/main.lua
-
+* ox_lib -- used for registering the command

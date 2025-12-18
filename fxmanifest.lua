@@ -1,7 +1,7 @@
 fx_version 'cerulean'
 game 'gta5'
 
-author 'Roasted Development'
+author 'JLH Development'
 description 'A Report system so player can make in city reports that post to discord and in city staff members'
 version '1.0.0'
 
@@ -11,7 +11,6 @@ client_scripts {
 
 server_scripts {
     'server/*.lua',
-    '@oxmysql/lib/MySQL.lua',
 }
 
 shared_scripts {
@@ -26,5 +25,6 @@ files {
 }
 
 dependency {
-    'qbx_core'
+    'qbx_core',
+    'ox_lib'
 }
