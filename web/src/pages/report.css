@@ -1,0 +1,150 @@
+
+
+.reportBox {
+background: linear-gradient(black, rgba(3, 3, 56, 0.951), black);
+border: 4px solid rgb(0, 0, 146);
+border-radius: 5px;
+width: 80vw;
+height: 80vh;
+position: absolute;
+left: 10vw;
+top: 10vh;
+color: white;
+}
+
+.flex {
+    display: flex;
+}
+
+.center-items {
+    align-items: center;
+}
+
+.center-content {
+    justify-content: center;
+}
+
+.column {
+    flex-direction: column;
+}
+
+.row {
+    flex-direction: row;
+}
+
+.nav {
+   padding: 10px 150px;
+   background-color: rgb(0, 0, 0);
+   border: 2px solid rgb(4, 146, 255);
+   border-radius: 5px;
+}
+
+.nav:hover {
+    cursor: pointer;
+    border: 2px solid rgb(17, 4, 255);
+    background-color: rgb(44, 44, 44);
+}
+
+#active {
+    background-color: rgba(0, 0, 0, 0);
+    border: 2px solid rgb(4, 242, 255);
+    background: linear-gradient(black, rgb(4, 130, 255), black);
+    color: black;
+    font-weight: 800;
+
+}
+
+.reportPlayer {
+    background-color: rgb(0, 0, 0);
+    padding: 15px;
+    border-radius: 5px;
+    border: 2px solid rgb(4, 146, 255);
+    margin: 20px;
+    width: 90%;
+    height: 90%;
+    font-size: 1.8rem;
+}
+
+#reportedPlayer {
+    margin: 5px;
+    text-align: center;
+    color: rgb(0, 0, 0);
+}
+
+input, textarea {
+  background-color: rgb(179, 179, 179); 
+  border-radius: 5px;
+}
+
+textarea {
+    width: 70%;
+    height: 70%;
+}
+
+input:focus, textarea:focus, select:focus {
+outline: none;
+border: 2px solid rgb(4, 146, 255);
+}
+
+input {
+    transform: scale(1.5);
+}
+
+
+select {
+
+  background-color: rgb(179, 179, 179); 
+  font-size: 1.6rem;
+}
+
+#reportedBug:focus option {
+     background-color: rgb(0, 0, 0);
+     color: white;
+}
+
+#reportedBug:focus option:checked {
+     background-color: blue;
+}
+
+#reportedBug:focus option::checkmark {
+  background: transparent !important;  /* no highlight */
+  color: inherit !important;
+}
+
+.sign {
+    overflow: hidden;
+}
+
+.sign img {
+    object-fit: cover;
+    height: 100%;
+}
+
+p.closeButton {
+    position: absolute;
+    right: 100px;
+    background-color: gray;
+    padding: 10px 15px;
+    border-radius: 5px;
+}
+
+p.closeButton:hover {
+    background-color: red;
+    cursor: pointer;
+}
+
+button {
+    background: linear-gradient(black, rgb(4, 130, 255), black);
+    padding: 20px;
+    font-size: 2.8rem;
+    margin: auto;
+        transition: background 1.4s ease, border 1.3s ease, border-radius 1.3s ease;
+}
+
+button:hover {
+    cursor: pointer;
+    background: linear-gradient(blue, rgb(4, 130, 255), blue);
+    border: 2px solid blue;
+    border-radius: 5px;
+}
+
